@@ -34,13 +34,12 @@ namespace Kard02.FastImaging
         /// <summary>
         /// Initializes a new instance of the <see cref="FastBitmap"/> class from the specified existing bitmap.
         /// </summary>
-        /// <param name="original">The <see cref="Bitmap"/> from which to create the new bitmap. Does not need to be disposed if consumed.</param>
+        /// <param name="original">The <see cref="Bitmap"/> from which to create the new bitmap. Do not dispose if consumed.</param>
         /// <param name="consume">When false copies specified <see cref="Bitmap"/> instead of storing provided one.</param>
         public FastBitmap(Bitmap original, bool consume = true)
         {
             Bitmap clone = new Bitmap(original.Width, original.Height, PixelFormat.Format32bppArgb);
             Bitmap target = consume ? original : new Bitmap(original);
-            original.Dispose();
             
             // Converting bitmap to argb format
             using (Graphics graphics = Graphics.FromImage(clone))
