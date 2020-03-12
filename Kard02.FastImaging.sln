@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kard02.FastImaging", "Kard02.FastImaging.csproj", "{F74CC683-2E2C-4833-9B14-96379B20E10B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F74CC683-2E2C-4833-9B14-96379B20E10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F74CC683-2E2C-4833-9B14-96379B20E10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F74CC683-2E2C-4833-9B14-96379B20E10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F74CC683-2E2C-4833-9B14-96379B20E10B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CDAF9E4-A7D7-4C45-A94B-D61B28DF3BEB}
+	EndGlobalSection
+EndGlobal
