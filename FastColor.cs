@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.Runtime.InteropServices;
 
-namespace MGI.FastImaging
+namespace Kard02.FastImaging
 {
     // TODO: Consider rewriting, not storing data in remote memory location
 

@@ -4,7 +4,7 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Runtime.InteropServices;
 
-namespace MGI.FastImaging
+namespace Kard02.FastImaging
 {
     /// <summary>
     /// Encapsulates <see cref="Bitmap"/> for better <c>GetPixel</c> and <c>SetPixel</c> performance. 
